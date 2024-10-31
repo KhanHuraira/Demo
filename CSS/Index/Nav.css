@@ -1,0 +1,159 @@
+#nav
+{
+
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    padding: 0 10%;
+    border-radius: 0 0 20px 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+
+}
+
+    #nav_box
+    {
+
+        height: 90%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+        #nav_logo
+        {
+
+            height: 45px;
+            width: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+            #nav_logo img
+            {
+
+                height: 45px;
+                width: 45px;
+
+            }
+
+        #nav_name
+        {
+
+            height: fit-content;
+            width: fit-content;
+            font-size: 25px;
+            margin-left: 3%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+    #options
+    {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+        #options ul
+        {
+
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+
+        }
+
+            #options ul a
+            {
+
+                margin: 0 25px;
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+
+            }
+
+            #options ul a:hover
+            {
+
+                text-decoration: underline;
+
+            } 
+
+            #options ul a:nth-child(4)
+            {
+
+                margin-right: 0;
+
+            }
+
+@media screen and (max-width : 800px)
+{
+
+    #nav
+    {
+
+        padding: 0 5%;
+        width: 100vw;
+
+    }
+
+    #options ul a
+    {
+        margin: 0 15px;
+
+    }
+
+}
+
+@media screen and (max-width : 600px) 
+{
+
+    #nav
+    {
+
+        padding: 0 1.5%;
+        width: 100vw;
+
+    }
+
+    #options ul a
+    {
+        margin: 0 10px;
+
+    }
+    
+}
+
+@media screen and (max-width : 600px) 
+{
+
+    #options
+    {
+
+        display: none;
+
+    }
+
+    #nav_box
+    {
+
+        width: 100%;
+
+    }
+
+}

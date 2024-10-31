@@ -1,0 +1,27 @@
+#brief_intro
+{
+
+    height: 80%;
+    width: 100%;
+    padding: 10%;
+    border-bottom: 1px solid black;
+
+}
+
+    #brief_intro h1
+    {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        font-weight: 600;
+
+    }
+
+    #brief_intro p
+    {
+
+        margin-top: 5%;
+
+    }
